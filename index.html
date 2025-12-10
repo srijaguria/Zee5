@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./Images/favicon.ico">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <title>Watch TV Shows and Web Series</title>
+    <style>
+        /* Make the image fully responsive */
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="navbar">
+        <div class="navrap">
+            <!-- Logo -->
+            <div class="logo">
+                <img src="./images/logo.svg" alt="">
+            </div>
+
+            <!-- Menu -->
+            <div class="menu">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./shows.html">TV Shows</a></li>
+                    <li><a href="#">Movies</a></li>
+                    <li><a href="#">ILT20</a></li>
+                    <li><a href="#">Premium</a></li>
+                </ul>
+            </div>
+
+            <!-- Search -->
+            <div class="search-box">
+                <i class="fa fa-search"></i>
+                <input type="text" placeholder="Search for Movies,Shows,Channels etc.">
+            </div>
+
+            <!-- Language Icon -->
+            <div class="lang">
+                <img src="./images/lang.svg" alt="">
+            </div>
+
+            <!-- Login -->
+            <button class="login-btn">LOGIN</button>
+
+            <!-- Buy Plan -->
+            <button class="buy-btn">BUY PLAN</button>
+        </div>
+    </div>
+
+
+
+    <!-- banner -->
+
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo" data-slide-to="3"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="picrap">
+                    <img src="./Images/ban1.webp">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="picrap">
+                    <img src="./Images/bam2.webp">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="picrap">
+                    <img src="./Images/ban3.webp">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="picrap">
+                    <img src="./Images/ban4.webp">
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+    <!-- middle -->
+
+
+    <div class="mid">
+        <div class="heading">
+            <h1>Trending Near You</h1>
+        </div>
+        <div class="midrap">
+            <div class="box">
+                <div class="container">
+                    <img src="./Images/pic1.webp" class="image" id="myBtn1">
+                    <div class="overlay"><b>Lalbazaar</b></div>
+                </div>
+
+                <!-- The Modal -->
+                <div id="myModal1" class="modal1">
+                    <!-- Modal content -->
+                    <div class="modal1-content">
+                        <div class="modal1-header">
+                            <span class="close1">&times;</span>
+                            <h2>LALBAZAAR</h2>
+                        </div>
+                        <div class="modal1-body">
+                            <video width="1200" height="500" controls>
+                                <source src="./video/v1.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic3.webp" class="image"></a>
+                    <div class="overlay"><b>Game Changer</b></div>
+                </div>
+
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic4.webp" class="image"></a>
+                    <div class="overlay"><b>Kaantaye Kaantaye</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic5.webp" class="image"></a>
+                    <div class="overlay"><b>Sankranthiki Vasthunam</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic2.webp" class="image"></a>
+                    <div class="overlay"><b>Uunchai</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic6.webp" class="image"></a>
+                    <div class="overlay"><b>Dance Bangla Dance</b></div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="heading">
+            <h1>Loved by the Masses</h1>
+        </div>
+        <div class="midrap">
+            <div class="box">
+                <div class="container">
+                    <img src="./Images/pic7.webp" class="image" id="myBtn2">
+                    <div class="overlay"><b>Mrs</b></div>
+                </div>
+
+                <!-- The Modal -->
+                <div id="myModal2" class="modal1">
+                    <!-- Modal content -->
+                    <div class="modal1-content">
+                        <div class="modal1-header">
+                            <span class="close2">&times;</span>
+                            <h2>MRS</h2>
+                        </div>
+                        <div class="modal1-body">
+                            <video width="1200" height="500" controls>
+                                <source src="./video/v2.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic12.webp" class="image"></a>
+                    <div class="overlay"><b>Vedaa</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic9.webp" class="image"></a>
+                    <div class="overlay"><b>The Signature</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic11.webp" class="image"></a>
+                    <div class="overlay"><b>Main Atal Hoon</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic8.webp" class="image"></a>
+                    <div class="overlay"><b>URI: The Surgical Strike</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic10.webp" class="image"></a>
+                    <div class="overlay"><b>The Kashmir Files: Unreported</b></div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="heading">
+            <h1>Zee Bangla Shows</h1>
+        </div>
+        <div class="midrap">
+            <div class="box">
+                <div class="container">
+                    <img src="./Images/pic14.webp" class="image" id="myBtn12">
+                    <div class="overlay"><b>Anondi</b></div>
+                </div>
+
+
+                <!-- The Modal -->
+                <div id="myModal12" class="modal1">
+                    <!-- Modal content -->
+                    <div class="modal1-content">
+                        <div class="modal1-header">
+                            <span class="close12">&times;</span>
+                            <h2>ANONDI</h2>
+                        </div>
+                        <div class="modal1-body">
+                            <video width="1200" height="500" controls>
+                                <source src="./video/v12.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic16.webp" class="image"></a>
+                    <div class="overlay"><b>Chirodini Tumi Je Amar</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic15.webp" class="image"></a>
+                    <div class="overlay"><b>Didi No.1 Season 9</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic13.webp" class="image"></a>
+                    <div class="overlay"><b>Neem Phooler Madhu</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic17.webp" class="image"></a>
+                    <div class="overlay"><b>Parineeta</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic18.webp" class="image"></a>
+                    <div class="overlay"><b>Batul The Great</b></div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="heading">
+            <h1>Most Watched in Bengali</h1>
+        </div>
+        <div class="midrap">
+            <div class="box">
+                <div class="container">
+                    <img src="./Images/pic21.webp" class="image" id="myBtn3">
+                    <div class="overlay"><b>Hatyapuri</b></div>
+                </div>
+
+
+                <!-- The Modal -->
+                <div id="myModal3" class="modal1">
+                    <!-- Modal content -->
+                    <div class="modal1-content">
+                        <div class="modal1-header">
+                            <span class="close3">&times;</span>
+                            <h2>HATYAPURI</h2>
+                        </div>
+                        <div class="modal1-body">
+                            <video width="1200" height="500" controls>
+                                <source src="./video/v3.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic24.webp" class="image"></a>
+                    <div class="overlay"><b>Mini</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic19.webp" class="image"></a>
+                    <div class="overlay"><b>Projapati</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic22.webp" class="image"></a>
+                    <div class="overlay"><b>Shohorer Ushnotomo Din E</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic20.webp" class="image"></a>
+                    <div class="overlay"><b>Shwetkali</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic23.webp" class="image"></a>
+                    <div class="overlay"><b>Abar Proloy</b></div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="heading">
+            <h1>New ZEE TV Ep | Premium Access</h1>
+        </div>
+        <div class="midrap1">
+            <div class="box1">
+                <div class="container1">
+                    </a><img src="./Images/pic28.webp" class="image1">
+                    <div class="overlay1">
+                        <video autoplay muted controls loop>
+                            <source src="./video/yvideo1.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <h1>Jamai No. 1</h1>
+                    <p>10 Mar</p>
+                </div>
+            </div>
+            <div class="box1">
+                <div class="container1">
+                    <img src="./Images/pic26.webp" class="image1">
+                    <div class="overlay1">
+                        <video autoplay muted controls loop>
+                            <source src="./video/yvideo2.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <h1>Jagriti</h1>
+                    <p>10 Mar</p>
+                </div>
+            </div>
+            <div class="box1">
+                <div class="container1">
+                    <img src="./Images/pic29.webp" class="image1">
+                    <div class="overlay1">
+                        <video autoplay muted controls loop>
+                            <source src="./video/yvideo3.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <h1>Kaise Mujhe Tum Mil Gaye</h1>
+                    <p>10 Mar</p>
+                </div>
+            </div>
+            <div class="box1">
+                <div class="container2">
+                    <img src="./Images/pic25.webp" class="image2">
+                    <div class="overlay2">
+                        <video autoplay muted controls loop>
+                            <source src="./video/yvideo4.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <h1>Kumkum Bhagya</h1>
+                    <p>10 Mar</p>
+                </div>
+            </div>
+            <div class="box1">
+                <div class="container2">
+                    <img src="./Images/pic27.webp" class="image2">
+                    <div class="overlay2">
+                        <video autoplay muted controls loop>
+                            <source src="./video/yvideo5.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <h1>Vasudha</h1>
+                    <p>10 Mar</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="heading">
+            <h1>ZEE5 Hall Of Fame</h1>
+        </div>
+        <div class="midrap">
+            <div class="box">
+                <div class="container">
+                    <img src="./Images/pic31.webp" class="image" id="myBtn4">
+                    <div class="overlay"><b>Karthikeya 2</b></div>
+                </div>
+
+                <!-- The Modal -->
+                <div id="myModal4" class="modal1">
+                    <!-- Modal content -->
+                    <div class="modal1-content">
+                        <div class="modal1-header">
+                            <span class="close4">&times;</span>
+                            <h2>KARTHIKEYA 2</h2>
+                        </div>
+                        <div class="modal1-body">
+                            <video width="1200" height="500" controls>
+                                <source src="./video/v4.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic34.webp" class="image"></a>
+                    <div class="overlay"><b>Kedarnath</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic35.webp" class="image"></a>
+                    <div class="overlay"><b>The Kerala Story</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic32.webp" class="image"></a>
+                    <div class="overlay"><b>Aindham Vedham</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic30.webp" class="image"></a>
+                    <div class="overlay"><b>Murshid</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic33.webp" class="image"></a>
+                    <div class="overlay"><b>Sirf Ek Bandaa Kaafi Hai</b></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="heading">
+            <h1>Blockbuster Movies</h1>
+        </div>
+        <div class="midrap">
+            <div class="box">
+                <div class="container">
+                    <img src="./Images/pic38.webp" class="image" id="myBtn5">
+                    <div class="overlay"><b>Kaashi in Search of Ganga</b></div>
+                </div>
+
+                <!-- The Modal -->
+                <div id="myModal5" class="modal1">
+                    <!-- Modal content -->
+                    <div class="modal1-content">
+                        <div class="modal1-header">
+                            <span class="close5">&times;</span>
+                            <h2>KAASHI IN SEARCH OF GANGA</h2>
+                        </div>
+                        <div class="modal1-body">
+                            <video width="1200" height="500" controls>
+                                <source src="./video/v5.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic41.webp" class="image"></a>
+                    <div class="overlay"><b>RRR</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html">><img src="./Images/pic36.webp" class="image"></a>
+                    <div class="overlay"><b>Lost</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic39.webp" class="image"></a>
+                    <div class="overlay"><b>Vivah</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic37.webp" class="image"></a>
+                    <div class="overlay"><b>Jhund</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic40.webp" class="image"></a>
+                    <div class="overlay"><b>Bob Biswas</b></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="heading">
+            <h1>Explore In Your Language</h1>
+        </div>
+        <div class="midrap2">
+            <div class="box2">
+                <img src="./Images/pic44.webp">
+            </div>
+            <div class="box2">
+                <img src="./Images/pic46.webp">
+            </div>
+            <div class="box2">
+                <img src="./Images/pic42.webp">
+            </div>
+            <div class="box2">
+                <img src="./Images/pic45.webp">
+            </div>
+            <div class="box2">
+                <img src="./Images/pic43.webp">
+            </div>
+        </div>
+
+
+        <div class="heading">
+            <h1>Mind-Blowing Originals</h1>
+        </div>
+        <div class="midrap">
+            <div class="box">
+                <div class="container">
+                    <img src="./Images/pic48.webp" class="image" id="myBtn6">
+                    <div class="overlay"><b>Roktokorobi</b></div>
+                </div>
+
+
+                <!-- The Modal -->
+                <div id="myModal6" class="modal1">
+                    <!-- Modal content -->
+                    <div class="modal1-content">
+                        <div class="modal1-header">
+                            <span class="close6">&times;</span>
+                            <h2>ROKTOKOROBI</h2>
+                        </div>
+                        <div class="modal1-body">
+                            <video width="1200" height="500" controls>
+                                <source src="./video/v6.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic51.webp" class="image"></a>
+                    <div class="overlay"><b>Jaanbaaz Hindustan Ke</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic52.webp" class="image"></a>
+                    <div class="overlay"><b>Seven</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic49.webp" class="image"></a>
+                    <div class="overlay"><b>Paashbalish</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic47.webp" class="image"></a>
+                    <div class="overlay"><b>Shabash Feluda</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic50.webp" class="image"></a>
+                    <div class="overlay"><b>Mukhbir - The Story of a Spy</b></div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="heading">
+            <h1>Free | ZEE5 Manoranjan Festival</h1>
+        </div>
+        <div class="midrap">
+            <div class="box">
+                <div class="container">
+                    <img src="./Images/pic56.webp" class="image" id="myBtn7">
+                    <div class="overlay"><b>Bini Sutoy</b></div>
+                </div>
+
+
+                <!-- The Modal -->
+                <div id="myModal7" class="modal1">
+                    <!-- Modal content -->
+                    <div class="modal1-content">
+                        <div class="modal1-header">
+                            <span class="close7">&times;</span>
+                            <h2>BINI SUTOY</h2>
+                        </div>
+                        <div class="modal1-body">
+                            <video width="1200" height="500" controls>
+                                <source src="./video/v7.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic58.webp" class="image"></a>
+                    <div class="overlay"><b>Aloukik Abhijaan</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic54.webp" class="image"></a>
+                    <div class="overlay"><b>8/12 Binay Badal Dinesh</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic53.webp" class="image"></a>
+                    <div class="overlay"><b>Aparajito</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic55.webp" class="image"></a>
+                    <div class="overlay"><b>Avijatrik</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic57.webp" class="image"></a>
+                    <div class="overlay"><b>Kedara</b></div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- midbanner -->
+
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="picrap1">
+                        <img src="./Images/banner2.webp">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="picrap1">
+                        <img src="./Images/banner3.webp">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="heading">
+            <h1>Popular Free Shows| Bangla</h1>
+        </div>
+        <div class="midrap">
+            <div class="box">
+                <div class="container">
+                    <img src="./Images/pic59.webp" class="image" id="myBtn13">
+                    <div class="overlay"><b>Rani Rashmoni</b></div>
+                </div>
+
+
+                <!-- The Modal -->
+                <div id="myModal13" class="modal1">
+                    <!-- Modal content -->
+                    <div class="modal1-content">
+                        <div class="modal1-header">
+                            <span class="close13">&times;</span>
+                            <h2>RANI RASHMONI</h2>
+                        </div>
+                        <div class="modal1-body">
+                            <video width="1200" height="500" controls>
+                                <source src="./video/v13.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic60.webp" class="image"></a>
+                    <div class="overlay"><b>Amader Ei Poth Jodi na Sesh Hoy</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic62.webp" class="image"></a>
+                    <div class="overlay"><b>Boddhisatwer Bodhbuddhi</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic63.webp" class="image"></a>
+                    <div class="overlay"><b>Dadagiri Unlimited</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic61.webp" class="image"></a>
+                    <div class="overlay"><b>Lalkuthi</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic64.webp" class="image"></a>
+                    <div class="overlay"><b>ZEE Bangla Sonar Sansar Awards 2023</b></div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="heading">
+            <h1>Live Channels</h1>
+        </div>
+        <div class="midrap">
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic66.webp" class="image"></a>
+                    <div class="overlay"><b>Zee Bangla Cinema</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic68.webp" class="image"></a>
+                    <div class="overlay"><b>Zee News</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic70.webp" class="image"></a>
+                    <div class="overlay"><b>Zee Bangla</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic65.webp" class="image"></a>
+                    <div class="overlay"><b>Zee Classic</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic69.webp" class="image"></a>
+                    <div class="overlay"><b>&Pictures HD</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic67.webp" class="image"></a>
+                    <div class="overlay"><b>Zee 24 Ghanta</b></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="heading">
+            <h1>Live Breaking News</h1>
+        </div>
+        <div class="midrap3">
+            <div class="box3">
+                <img src="./Images/news1.webp" class="dot">
+                <h1>Zee News</h1>
+            </div>
+            <div class="box3">
+                <img src="./Images/news2.webp" class="dot">
+                <h1>Aaj Tak</h1>
+            </div>
+            <div class="box3">
+                <img src="./Images/news3.webp" class="dot">
+                <h1>Zee 24 Ghanta</h1>
+            </div>
+            <div class="box3">
+                <img src="./Images/news4.webp" class="dot">
+                <h1>Zee Business</h1>
+            </div>
+            <div class="box3">
+                <img src="./Images/news8.webp" class="dot">
+                <h1>India Today</h1>
+            </div>
+            <div class="box3">
+                <img src="./Images/news9.webp" class="dot">
+                <h1>Zee Salaam</h1>
+            </div>
+            <div class="box3">
+                <img src="./Images/news7.webp" class="dot">
+                <h1>Good News Today</h1>
+            </div>
+            <div class="box3">
+                <img src="./Images/news6.webp" class="dot">
+                <h1>WION</h1>
+            </div>
+            <div class="box3">
+                <img src="./Images/news10.webp" class="dot">
+                <h1>Zee Bharat</h1>
+            </div>
+            <div class="box3">
+                <img src="./Images/news5.webp" class="dot">
+                <h1>Zee 24 Taas</h1>
+            </div>
+        </div>
+
+
+
+        <div class="heading">
+            <h1>Evergreen Hindi TV Shows Free</h1>
+        </div>
+        <div class="midrap">
+            <div class="box">
+                <div class="container">
+                    <img src="./Images/pic101.webp" class="image" id="myBtn14">
+                    <div class="overlay"><b>Pavitra Rishta</b></div>
+                </div>
+
+
+                <!-- The Modal -->
+                <div id="myModal14" class="modal1">
+                    <!-- Modal content -->
+                    <div class="modal1-content">
+                        <div class="modal1-header">
+                            <span class="close14">&times;</span>
+                            <h2>PAVITRA RISHTA</h2>
+                        </div>
+                        <div class="modal1-body">
+                            <video width="1200" height="500" controls>
+                                <source src="./video/v14.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic105.webp" class="image"></a>
+                    <div class="overlay"><b>Hum Paanch</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic102.webp" class="image"></a>
+                    <div class="overlay"><b>Mahabharat</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic104.webp" class="image"></a>
+                    <div class="overlay"><b>Punar Vivaah</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic103.webp" class="image"></a>
+                    <div class="overlay"><b>Jodha Akbar</b></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container">
+                    <a href="./buyplan.html"><img src="./Images/pic106.webp" class="image"></a>
+                    <div class="overlay"><b>Kasamh Se</b></div>
+                </div>
+            </div>
+        </div>
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
